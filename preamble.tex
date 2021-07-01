@@ -1,0 +1,34 @@
+% !TEX root = main.tex
+% Math
+\usepackage{mathtools}
+% Provide bold font for math symbols because mathbf does not work
+\usepackage{bm}
+% Provide various useful mathematical symbols
+\usepackage{amssymb,stmaryrd}
+\usepackage[retainorgcmds]{IEEEtrantools} % Better multiline equation
+\usepackage{siunitx}  % SI units
+
+% figures packages
+\usepackage{graphicx}  % images management
+\graphicspath{{figs/}}
+\usepackage{caption, subcaption}  % figures and sub figures
+
+% table packages
+\usepackage{booktabs}  % professional tables
+% Increase the matrix and table vertical spacing
+\renewcommand{\arraystretch}{1.4}
+
+% Tune styles
+% Provide a reasonable page setup
+\usepackage[margin=2.5cm,nohead]{geometry}
+\usepackage{microtype} % See http://www.khirevich.com/latex/microtype/
+\usepackage{authblk}
+
+% Could be removed latter
+\usepackage{lipsum}
+\usepackage{lineno}
+\linenumbers
+
+% hyper link which should be the last command
+\usepackage[colorlinks,allcolors=cyan]{hyperref}
+\usepackage[capitalise, nameinlink]{cleveref}  % after hyperref package
